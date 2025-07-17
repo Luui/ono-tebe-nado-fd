@@ -69,11 +69,11 @@ li {
 .address {
   justify-self: end;
   font-style: normal;
-  width: 240px;
 }
 
 .header__address {
   align-items: flex-start;
+  width: 240px;
 }
 
 /* Баннер */
@@ -153,11 +153,11 @@ li {
 }
 
 .lots__card-list li {
+  flex-wrap: wrap;
   width: 334px;
   min-height: 596px;
   color: white;
   list-style: none;
-  flex-wrap: wrap;
 }
 
 .lots__card-list {
@@ -272,12 +272,12 @@ li {
   font-size: 18px;
 }
 
-.footer .footer__address {
-  width: 260px;
+.footer .address {
+  justify-self: start;
 }
 
 .footer__address {
-  justify-self: start;
+  width: 260px;
 }
 
 .footer__menu {
