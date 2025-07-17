@@ -141,11 +141,6 @@ li {
   padding-bottom: 120px;
 }
 
-.about__logo {
-  margin-top: 35px;
-  margin-left: 47px;
-}
-
 .lots__heading {
   padding-bottom: 27px;
   padding-left: 40px;
@@ -235,6 +230,8 @@ li {
   align-items: center;
   width: 240px;
   height: 240px;
+  margin-top: 35px;
+  margin-left: 47px;
   border-radius: 50%;
   background-color: black;
 }
