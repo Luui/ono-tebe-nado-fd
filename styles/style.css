@@ -247,6 +247,7 @@ li {
   display: flex;
   flex-direction: column;
   gap: 100px;
+  padding-left: 72px;
 }
 
 .about__title {
