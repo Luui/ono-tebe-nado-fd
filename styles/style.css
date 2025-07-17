@@ -250,7 +250,7 @@ li {
   display: flex;
   flex-direction: column;
   gap: 100px;
-  padding-left: 72px;
+  padding-left: 30px;
 }
 
 .about__title {
