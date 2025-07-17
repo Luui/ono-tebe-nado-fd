@@ -2,10 +2,6 @@ body {
   text-underline-offset: 4px;
 }
 
-section {
-  margin-bottom: 180px;
-}
-
 li {
   list-style: none;
 }
@@ -19,6 +15,17 @@ li {
   inset: 0;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.4);
+}
+
+.cover,
+.about {
+  margin-bottom: 180px;
+}
+
+.lots,
+.about {
+  margin-right: 24px;
+  margin-left: 24px;
 }
 
 /* Шапка */
@@ -69,6 +76,9 @@ li {
 
 .cover {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
   min-height: 757px;
   color: white;
   background-image: url(../images/cover.jpg);
@@ -82,8 +92,8 @@ li {
   z-index: 2;
   padding: 165px 50px 106px;
   font-size: 100px;
-  text-transform: uppercase;
   letter-spacing: 30px;
+  text-transform: uppercase;
 }
 
 .aligned-text {
@@ -124,10 +134,8 @@ li {
 
 /* Лоты */
 
-.lots,
-.about {
-  margin-right: 24px;
-  margin-left: 24px;
+.lots {
+  padding-bottom: 120px;
 }
 
 .about__logo {
