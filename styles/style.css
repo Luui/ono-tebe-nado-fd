@@ -14,7 +14,7 @@ li {
   position: absolute;
   inset: 0;
   z-index: 1;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.6);
 }
 
 .cover,
@@ -26,6 +26,13 @@ li {
 .about {
   margin-right: 24px;
   margin-left: 24px;
+}
+
+.all__address {
+  display: flex;
+  flex-direction: column;
+  line-height: 24.3px;
+  text-underline-offset: 4px;
 }
 
 /* Шапка */
@@ -61,15 +68,12 @@ li {
 
 .address {
   justify-self: end;
+  font-style: normal;
   width: 240px;
 }
 
 .header__address {
-  display: flex;
-  flex-direction: column;
   align-items: flex-start;
-  line-height: 24.3px;
-  text-underline-offset: 4px;
 }
 
 /* Баннер */
@@ -153,6 +157,7 @@ li {
   min-height: 596px;
   color: white;
   list-style: none;
+  flex-wrap: wrap;
 }
 
 .lots__card-list {
@@ -173,9 +178,7 @@ li {
   height: 100%;
 }
 
-.card_type_film,
-.card_type_book,
-.card_type_picture {
+.lot__card {
   position: relative;
   background-position: center;
   background-size: cover;
@@ -266,20 +269,15 @@ li {
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  min-height: 180px;
   font-size: 18px;
 }
 
-.adress {
-  padding-left: 50px;
+.footer .footer__address {
+  width: 260px;
 }
 
-.footer_adress {
-  display: flex;
-  flex-direction: column;
+.footer__address {
   justify-self: start;
-  line-height: 24px;
-  text-underline-offset: 4px;
 }
 
 .footer__menu {
