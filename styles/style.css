@@ -83,6 +83,7 @@ li {
   padding: 165px 50px 106px;
   font-size: 100px;
   text-transform: uppercase;
+  letter-spacing: 30px;
 }
 
 .aligned-text {
@@ -127,6 +128,15 @@ li {
 .about {
   margin-right: 24px;
   margin-left: 24px;
+}
+
+.about__logo {
+  margin-top: 35px;
+  margin-left: 47px;
+}
+
+.about__title__text {
+  margin-top: 133px;
 }
 
 .lots__heading {
@@ -241,6 +251,7 @@ li {
   flex-direction: column;
   gap: 24px;
   font-size: 20px;
+  line-height: 24px;
 }
 
 /* Футер */
