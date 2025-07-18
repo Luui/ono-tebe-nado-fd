@@ -153,7 +153,6 @@ li {
 }
 
 .lots__card-list li {
-  flex-wrap: wrap;
   width: 334px;
   min-height: 596px;
   color: white;
@@ -163,6 +162,7 @@ li {
 .lots__card-list {
   position: relative;
   display: flex;
+  flex-wrap: wrap;
   gap: 25px;
 }
 
@@ -277,6 +277,7 @@ li {
 }
 
 .footer__address {
+  padding-left: 50px;
   width: 260px;
 }
 
